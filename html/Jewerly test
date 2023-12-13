@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<title>
+   Jewelrly Trewely
+</title>
+</head>
+
+<body>
+  <h1>
+    Best Jewels
+  </h1>
+  <p>
+   Expensive
+  </p>
+  <img src="/Images/Nyan.png" alt="Nyan cat">
+</body>
+</html>
