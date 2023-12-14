@@ -1,0 +1,27 @@
+h1.basic {
+    font-family: 'Crimson text';
+    color: rgb(0, 145, 108);
+}
+p.basic {
+    font-family: 'Crimson text';
+}
+
+.boton {
+    width: 40px;
+    height: 40px;
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+.boton:hover {
+    font-variation-settings: 'FILL' 1;
+}
