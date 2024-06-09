@@ -1,2 +1,2 @@
-# sekida-website-testing
-Test website
+# sekida-website
+Portfolio and utilities(coming soon)
