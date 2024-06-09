@@ -1,27 +1,100 @@
-h1.basic {
-    font-family: 'Crimson text';
-    color: rgb(0, 145, 108);
-}
-p.basic {
-    font-family: 'Crimson text';
-}
-
-.boton {
-    width: 40px;
-    height: 40px;
-    font-family: 'Material Symbols Outlined';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: century-gothic, sans-serif;
 }
 
-.boton:hover {
-    font-variation-settings: 'FILL' 1;
+body {
+  background-color: #0d1818;
+  color: #ffa2b9;
+  margin: 0%;
+  padding: 0%;
+}
+
+button {
+  background-color: #0d1818;
+  color: #ffa2b9;
+}
+
+.light-mode {
+  background-color: #ffa2b9;
+  color: #0d1818;
+}
+
+.lightbtn-mode {
+  color: #0d1818;
+}
+
+.firsttitle {
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  margin-left: 100px;
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xxx-large;
+}
+
+.buttons-topr {
+  margin-top: 25px;
+  display: inline;
+  width: 200x;
+  height: 40px;
+  position: absolute;
+  right: 55px;
+  top: 14px;
+}
+
+.name {
+  font-size: x-large;
+  margin-left: 35px;
+}
+
+.maxbtn {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-variation-settings: "FILL" 1;
+}
+
+footer {
+  position:static;
+  background-color: #250c17;
+  color: #ffa2b9;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  height: auto;
+  border: solid;
+  margin: 0%;
+  padding: 0%;
 }
