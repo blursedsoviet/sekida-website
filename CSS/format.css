@@ -39,7 +39,7 @@ button {
   font-family: "Rampart One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: xxx-large;
+  font-size: 300%;
 }
 
 .buttons-topr {
@@ -86,15 +86,63 @@ button {
   font-variation-settings: "FILL" 1;
 }
 
-footer {
-  position:static;
-  background-color: #250c17;
-  color: #ffa2b9;
-  bottom: 0px;
-  width: 100%;
-  left: 0px;
-  height: auto;
-  border: solid;
-  margin: 0%;
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.line {
+  width:0%;
+  height: 1250px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #a6eaf1;
   padding: 0%;
+  margin: 0%;
+  float: left;
+}
+
+.myphoto {
+  margin-top: 75px;
+  height: 30%;
+  width: 30%;
+  border-radius: 500px;
+  border:2px solid #a6eaf1;
+}
+
+.thumbnail {
+  margin-top: 75px;
+  height: 30%;
+  width: 50%;
+  border-radius: 14px;
+}
+
+.description {
+  margin-top: 20px;
+  width: 60%;
+  text-align:justify;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.list {
+  text-align: left;
+  padding-left: 30%;
+  padding-right: 10%;
+  margin-bottom: 50px;
+}
+
+.list2 {
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+}
+
+.experience {
+  text-align: left;
+  padding-left: 14%;
+  padding-right: 0%;
+  margin-bottom: 50px;
 }
