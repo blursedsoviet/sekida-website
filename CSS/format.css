@@ -103,14 +103,6 @@ button {
   float: left;
 }
 
-.myphoto {
-  margin-top: 75px;
-  height: 30%;
-  width: 30%;
-  border-radius: 500px;
-  border:2px solid #a6eaf1;
-}
-
 .thumbnail {
   margin-top: 75px;
   height: 30%;
